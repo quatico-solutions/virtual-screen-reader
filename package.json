@@ -52,6 +52,7 @@
     "compile": "tsup",
     "lint": "eslint src test --cache",
     "lint:fix": "yarn lint --fix",
+    "prepare": "yarn build",
     "prepublish": "yarn build",
     "test": "jest",
     "test:coverage": "yarn test --coverage",
